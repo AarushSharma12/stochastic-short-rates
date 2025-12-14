@@ -59,8 +59,6 @@ $$
 
 ## 🏗️ Project Structure
 
-This project demonstrates **dual competency** in quantitative research and software engineering:
-
 ```
 stochastic-short-rates/
 ├── src/
@@ -74,7 +72,7 @@ stochastic-short-rates/
 └── README.md
 ```
 
-### 🔧 `src/vasicek.py` — The Software Engineering Layer
+### 🔧 `src/vasicek.py`
 
 A **production-ready Python module** designed for integration into larger systems:
 
@@ -98,7 +96,7 @@ paths = model.simulate(n_paths=10_000, n_steps=252, dt=1/252, seed=42)
 price = model.price_bond(r_t=0.043, T=5.0)
 ```
 
-### 📓 `monte-carlo.ipynb` — The Quantitative Research Layer
+### 📓 `monte-carlo.ipynb`
 
 An **interactive research notebook** for exploration and validation:
 
@@ -230,11 +228,7 @@ _Values depend on calibration data range._
 
 ## 📚 References
 
-1. Vasicek, O. (1977). "An equilibrium characterization of the term structure." _Journal of Financial Economics_, 5(2), 177-188.
-
-2. Privault, N. (2022). _Notes on Stochastic Finance_. Chapter 17: Short Rates and Bond Pricing.
-
-3. Glasserman, P. (2003). _Monte Carlo Methods in Financial Engineering_. Springer.
+1. Privault, N. (2022). _Notes on Stochastic Finance_. Chapter 17: Short Rates and Bond Pricing.
 
 ---
 
@@ -247,10 +241,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👤 Author
 
 **Aarush Sharma**  
-[GitHub](https://github.com/AarushSharma12) · [LinkedIn](https://linkedin.com/in/aarushsharma)
 
 ---
-
-<p align="center">
-  <i>Built with ❤️ for the intersection of quantitative finance and software engineering.</i>
-</p>
