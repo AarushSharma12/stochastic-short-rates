@@ -63,7 +63,7 @@ $$
 stochastic-short-rates/
 ├── src/
 │   ├── __init__.py
-│   └── vasicek.py              # Production-grade OOP implementation
+│   └── vasicek.py              # OOP implementation
 ├── notebooks/
 │   └── monte-carlo.ipynb       # Research notebook with derivations
 ├── data/
@@ -213,16 +213,6 @@ $$
 | 1-Year ZCB Price           | ~$0.958 |
 
 _Values depend on calibration data range._
-
----
-
-## 🛣️ Roadmap
-
-- [ ] Add Cox-Ingersoll-Ross (CIR) model implementation
-- [ ] Implement Hull-White model with time-varying parameters
-- [ ] Add interest rate derivative pricing (caps, floors, swaptions)
-- [ ] Build REST API for model-as-a-service deployment
-- [ ] Add unit tests with pytest
 
 ---
 
